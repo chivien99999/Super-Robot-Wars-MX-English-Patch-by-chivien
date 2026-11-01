@@ -9,6 +9,13 @@ This is my English translation patch for **Super Robot Taisen MX Portable** (PSP
 - I fixed the opening narration crawl, so it scrolls smoothly now.
 - I made some font changes to match the original MX look.
 
+Minor fixes:
+
+- The last row of the sortie list no longer sits on the border.
+- Repair Cost has room for 5 digits.
+- The Lv spacing on the pre-battle screen is fixed.
+- The third line of battle quotes lines up with the others.
+
 ## What I translated
 
 - The full story script: every scene and intermission conversation
@@ -43,7 +50,7 @@ Your Japanese ISO is never changed. `patch.bat` checks both files for you:
 | File | Size | MD5 |
 |---|---|---|
 | Japanese ISO (input) | 1,295,122,432 bytes | `448d168edcd3edfe62cdcb9b31c87820` |
-| English ISO (output) | 1,357,854,720 bytes | `7998faa5e68f827c674686f1e6823536` |
+| English ISO (output) | 1,357,854,720 bytes | `840beaa2614f8d77e2bd329bba97c7a2` |
 
 **Other systems (Linux / macOS):** install xdelta3 and run
 
@@ -80,8 +87,8 @@ The add-on is a second, small patch that goes on top of the English ISO. It neve
 
 | File | Size | MD5 |
 |---|---|---|
-| English ISO (input) | 1,357,854,720 bytes | `7998faa5e68f827c674686f1e6823536` |
-| PS2 balance ISO (output) | 1,357,854,720 bytes | `397fcfbce3bc57e2940ed5d2725e8f4c` |
+| English ISO (input) | 1,357,854,720 bytes | `840beaa2614f8d77e2bd329bba97c7a2` |
+| PS2 balance ISO (output) | 1,357,854,720 bytes | `ae76eaa5bb8bd249ab9afca670e1b2fb` |
 
 Other systems:
 
