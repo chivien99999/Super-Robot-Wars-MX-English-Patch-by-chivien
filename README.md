@@ -6,13 +6,8 @@ This is my English translation patch for **Super Robot Taisen MX Portable** (PSP
 
 ## What's new in v0.2
 
-- **New font.** I redrew the English font as a crisp 1-pixel bitmap font with the same soft grey shading as the original Japanese font. Every letter is the same width as in v0.1 or narrower, so no line got longer. I hand-fixed the digits and the letters that looked wrong at this size.
-- **Round brackets.** ( ) are now properly curved, so "(100)" no longer reads like "[100]". Brackets around numbers use the same font as the numbers.
-- **Numbers line up.** A "---" is now exactly as wide as a 3-digit number, so dashes and numbers sit in the same column (Raise Stats, Weapon Performance, Pilot Status skill levels, Parts).
-- **Smooth opening narration.** The scrolling text at the start of the game now scrolls smoothly, with every line moving together and even gaps between lines.
-- **Aligned footer keys.** The two words in each column of the button key along the bottom of the screen (for example Attribute / Field, W Attack / Guided) now start at the same spot.
-- **Menu fit fixes.** Swap Main Pilot: each Spirit's SP cost sits right after its own name. Swap Pilots: long skill names stay inside the frame. Parts descriptions wrap cleanly and no longer mix two font sizes.
-- **Script fixes.** I re-broke 23 story pages at natural points so they read better, and tidied the wording in one line.
+- I fixed the opening narration crawl, so it scrolls smoothly now.
+- I made some font changes to match the original MX look.
 
 ## What I translated
 
