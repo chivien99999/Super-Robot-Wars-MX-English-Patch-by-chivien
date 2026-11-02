@@ -1,10 +1,34 @@
-# Super Robot Wars MX Portable - English Patch (v0.2 playtest)
+# Super Robot Wars MX Portable - English Patch (v0.3 playtest)
 
 This is my English translation patch for **Super Robot Taisen MX Portable** (PSP, ULJS-00041).
 
-> **Early playtest.** Version 0.2 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
+> **Early playtest.** Version 0.3 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
 
-## What's new in v0.2
+## What's new in v0.3
+
+This version is a sweep through every menu in the game for text that didn't fit or didn't line up. Each fix below says why I made it.
+
+- **Sync Ratio (Eva pilots, Pilot Status):** moved to the empty space under the pilot portrait, because on the PP row its label ran over the PP value.
+- **Equipped Parts panel:** part names now use the same columns as "None", because long names like "Gravity Wave Beam Generator" ran past the frame.
+- **Unit and Pilot lists:** the columns after the unit name moved 8 px right, because the longest unit name (Super Aestivalis (Saburota)) was touching the next column.
+- **Unknown values (???, ---):** they now sit on the same row and right edge as the real numbers, because they sat lower or out of line in the lists and footers.
+- **Character Encyclopedia:** the right column moved left, because the longest name ran past the frame.
+- **Pilot Status Combat Ability:** the six values are right-aligned, because "Defense 99" sat almost on top of its label.
+- **Unit Status:** the label column moved left, so "Repair Cost" keeps a gap before a 5-digit cost.
+- **Weapon Upgrade list:** long weapon names drop to a smaller font and then to two rows, spaced so they no longer overlap each other or the Attack Power value.
+- **Select Weapon list:** two-row weapon names are 1 px tighter, because a split name was touching the next weapon.
+- **Page counters (Search Skills / Abilities, Sound Select, Demo Select):** now read "1 / 2", because the count sat too far from the slash.
+- **Battle results:** Credits and PP gains are right-aligned, because a big number like "+99999" ran out of the panel.
+- **Name descriptions (Protagonist Unit Settings, Change Unit Name):** a name in 「 」 or 『 』 is never split across two rows, so it stays readable.
+- **Swap Pilots confirm:** the unit name moved left, because the longest name ran into the icon.
+- **Support Attack / Support Defend / Assist Attack map markers:** redrawn narrower, because the markers of units standing side by side touched each other.
+- **Script:** "sync rate" is now "Sync Ratio" in one line, to match the in-game term.
+
+## Earlier versions
+
+The older version is still in the `playtest` folder if you need it.
+
+### v0.2
 
 - I fixed the opening narration crawl, so it scrolls smoothly now.
 - I made some font changes to match the original MX look.
@@ -38,24 +62,24 @@ Minor fixes:
 
 ## How to apply (Windows)
 
-1. Download `SRW_MX_Portable_English_Patch_v0.2.zip` from the `playtest` folder.
+1. Download `SRW_MX_Portable_English_Patch_v0.3.zip` from the `playtest` folder.
 2. Unzip it into the folder that holds your Japanese ISO (or into a folder inside it). The ISO must be named exactly:
    `Super_Robot_Taisen_MX_Portable_JPN_PSP-Caravan.iso`
 3. Double-click `patch.bat`.
 4. Wait for **DONE** (about a minute). The English ISO is written next to the Japanese one:
-   `Super_Robot_Wars_MX_Portable_EN_v0.2.iso`
+   `Super_Robot_Wars_MX_Portable_EN_v0.3.iso`
 
 Your Japanese ISO is never changed. `patch.bat` checks both files for you:
 
 | File | Size | MD5 |
 |---|---|---|
 | Japanese ISO (input) | 1,295,122,432 bytes | `448d168edcd3edfe62cdcb9b31c87820` |
-| English ISO (output) | 1,357,854,720 bytes | `840beaa2614f8d77e2bd329bba97c7a2` |
+| English ISO (output) | 1,357,854,720 bytes | `107626c24452b89b4b7c2bea7045c40e` |
 
 **Other systems (Linux / macOS):** install xdelta3 and run
 
 ```
-xdelta3 -d -s Super_Robot_Taisen_MX_Portable_JPN_PSP-Caravan.iso MX_EN_v0.2.xdelta Super_Robot_Wars_MX_Portable_EN_v0.2.iso
+xdelta3 -d -s Super_Robot_Taisen_MX_Portable_JPN_PSP-Caravan.iso MX_EN_v0.3.xdelta Super_Robot_Wars_MX_Portable_EN_v0.3.iso
 ```
 
 ## Optional: PS2 balance add-on
@@ -79,21 +103,21 @@ What it does **not** change (these stay as the PSP has them):
 The add-on is a second, small patch that goes on top of the English ISO. It never touches your Japanese ISO or your English ISO. It writes a third ISO, so you can keep both versions and pick either one.
 
 1. Make the English ISO first (steps above).
-2. Unzip `SRW_MX_Portable_PS2_Balance_Addon_v0.2.zip` into the folder that holds the English ISO.
+2. Unzip `SRW_MX_Portable_PS2_Balance_Addon_v0.3.zip` into the folder that holds the English ISO.
 3. Double-click `patch.bat` and wait for **DONE**. The new file is written next to it:
-   `Super_Robot_Wars_MX_Portable_EN_v0.2_PS2_balance.iso`
+   `Super_Robot_Wars_MX_Portable_EN_v0.3_PS2_balance.iso`
 
-`patch.bat` checks that the input is the exact English v0.2 ISO, and it checks the result too:
+`patch.bat` checks that the input is the exact English v0.3 ISO, and it checks the result too:
 
 | File | Size | MD5 |
 |---|---|---|
-| English ISO (input) | 1,357,854,720 bytes | `840beaa2614f8d77e2bd329bba97c7a2` |
-| PS2 balance ISO (output) | 1,357,854,720 bytes | `ae76eaa5bb8bd249ab9afca670e1b2fb` |
+| English ISO (input) | 1,357,854,720 bytes | `107626c24452b89b4b7c2bea7045c40e` |
+| PS2 balance ISO (output) | 1,357,854,720 bytes | `2a324590816727a03d548d87b2226e99` |
 
 Other systems:
 
 ```
-xdelta3 -d -s Super_Robot_Wars_MX_Portable_EN_v0.2.iso MX_EN_v0.2_PS2_balance.xdelta Super_Robot_Wars_MX_Portable_EN_v0.2_PS2_balance.iso
+xdelta3 -d -s Super_Robot_Wars_MX_Portable_EN_v0.3.iso MX_EN_v0.3_PS2_balance.xdelta Super_Robot_Wars_MX_Portable_EN_v0.3_PS2_balance.iso
 ```
 
 ## Bug reports
