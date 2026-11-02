@@ -26,6 +26,8 @@ This version is a sweep through every menu in the game for text that didn't fit 
 
 **Update:** the first v0.3 upload still showed "1/   2" on the Search Special Skills / Abilities pages. I fixed it, and the v0.3 files now in the folder show "1 / 2" there, like the other page counters. If you downloaded v0.3 earlier, grab it again.
 
+**Update 2:** on Unit Status, "Movement" no longer touches the frame. I moved the robot and the stats 7 px left, and the robot art is kept whole.
+
 ## Earlier versions
 
 The older version is still in the `playtest` folder if you need it.
@@ -76,7 +78,7 @@ Your Japanese ISO is never changed. `patch.bat` checks both files for you:
 | File | Size | MD5 |
 |---|---|---|
 | Japanese ISO (input) | 1,295,122,432 bytes | `448d168edcd3edfe62cdcb9b31c87820` |
-| English ISO (output) | 1,357,854,720 bytes | `8d3e7c2ecb0c976054041592fc53d815` |
+| English ISO (output) | 1,357,854,720 bytes | `3bd546e8210ce871824a867b42710e6e` |
 
 **Other systems (Linux / macOS):** install xdelta3 and run
 
@@ -113,8 +115,8 @@ The add-on is a second, small patch that goes on top of the English ISO. It neve
 
 | File | Size | MD5 |
 |---|---|---|
-| English ISO (input) | 1,357,854,720 bytes | `8d3e7c2ecb0c976054041592fc53d815` |
-| PS2 balance ISO (output) | 1,357,854,720 bytes | `5ca74227f7349b645884b3e0f6b87820` |
+| English ISO (input) | 1,357,854,720 bytes | `3bd546e8210ce871824a867b42710e6e` |
+| PS2 balance ISO (output) | 1,357,854,720 bytes | `2c5cc82146f064293f560d8fa234e1bb` |
 
 Other systems:
 
