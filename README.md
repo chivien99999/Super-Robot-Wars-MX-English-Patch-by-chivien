@@ -1,43 +1,10 @@
-# Super Robot Wars MX Portable - English Patch (v0.4 playtest)
+# Super Robot Wars MX Portable - English Patch (v0.3 playtest)
 
 This is my English translation patch for **Super Robot Taisen MX Portable** (PSP, ULJS-00041).
 
-> **Early playtest.** Version 0.4 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
+> **Early playtest.** Version 0.3 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
 
-## What's new in v0.4
-
-This version gives the text more room to breathe. The letters were packed too tight, so I spaced them out, then went through every screen in the game (except the battle menu) so nothing touches and nothing is cut.
-
-- **Letter spacing:** letters and words are 1 px further apart in story scenes, battle quotes, the opening narration and the menus, because the old spacing was cramped and hard to read. The battle menu keeps the v0.3 spacing.
-- **Names in 「 」 and 『 』:** a quoted name or title in the story text is never split across two lines.
-- **Menus:** with the wider letters, I re-laid out the screens so no text touches a frame, a divider or other text, and nothing was cut or shortened. This covers Pilot Status, Unit Status, Swap Main, the unit and pilot lists, Parts, Raise Stats, Pilot Training, the pre-battle screen, Stage Select, the map menu, the terrain window, the name editor, the help boxes, the map Status screen and the map unit info.
-- **Robot and Pilot dictionary:** every entry keeps its full text, re-flowed for the new spacing.
-- **Weapon Performance (intermission and the map Status tab):** the bottom panel is laid out again: Required Morale, Critical Modifier and Required Skill on the left, then Ammo and EN Cost, Terrain and Additional Effect on the right. The Critical Modifier lines up under the Required Morale number, the terrain words and grades are spaced out, and the check mark is redrawn and centred in its box.
-- **Numbers in brackets:** spirit costs, Required Morale and EN Cost now have room on both sides of the brackets, and an unknown spirit cost "(???)" is spaced the same way as "(30)".
-- **Weapon Details:** every value starts in one column, "Post-Move Attack" no longer touches "Not Possible", the terrain grades sit clear of their words, and the "MAP Weapon Details Screen" hint has its own footer.
-- **MAP Weapon Details:** the weapon name, Shape and Identification sit on two clean rows, so long names and values no longer run into each other.
-
-Then I swept every other screen, checking each one with the longest names and the biggest numbers at once:
-
-- **Weapon Upgrade:** still 4 weapons a page. The window grew into the empty space below it, and the page counter moved up into the title bar. A long weapon name now wraps onto two lines, with its numbers and arrows centred on the two-line name.
-- **Parts:** long part names wrap onto two lines, the cursor bar covers both, and a part's count is centred on its two-line name. Every part description fits its box, balanced over up to 5 rows (the longest is Solar Sail's).
-- **System Settings:** the options and their values keep the v0.3 letters, because the new spacing didn't fit there. The description box at the bottom uses the new spacing, and every description fits.
-- **Spirit Commands page (Pilot Status, Swap Pilots, Pilot Training):** the six spirit slots moved down a row, so the SP line has its own row and the third row no longer sits on the footer.
-- **Level Up:** "Spirit Commands" is centred, the level columns line up, and a skill's new level ("Lv9") uses the same letters as its old one.
-- **Learn Skills:** the skill names are centred and clear of the divider.
-- **Change Unit Name:** the description frame and the name entry labels are laid out again, so no text overlaps.
-- **Encyclopedia pop-up:** the pop-up box is wide enough for its text.
-- **Enemy info (X on the map):** the window is wider, so the pilot, unit, Lv, Morale, HP and EN no longer touch.
-- **Favorite series (new game):** "Selections Remaining" no longer overlaps its count.
-- **Sortie terrain grades and the Unit Special Bonus terrain picker:** the grades and the picker bar sit clear of their words.
-- **Character Encyclopedia and Robot Compendium:** scrolling an entry no longer crashes the game. Some long entries crashed on scrolling (Aqua in v0.3; Elpeo Ple, Elle Vianno, Dragonar-3 (L) and Mother Barn in later builds). Every entry now opens and scrolls to the end, and no line is missing.
-- **Garbled words in the encyclopedia:** a few entries showed a wrong word in the middle of a sentence (Mondo Agake "Emperor3feats", Misato Katsuragi, Megarider, Dolem, Susumu). They read correctly now.
-
-## Earlier versions
-
-The older versions are still in the `playtest` folder if you need them.
-
-### v0.3
+## What's new in v0.3
 
 This version is a sweep through every menu in the game for text that didn't fit or didn't line up. Each fix below says why I made it.
 
@@ -60,6 +27,10 @@ This version is a sweep through every menu in the game for text that didn't fit 
 **Update:** the first v0.3 upload still showed "1/   2" on the Search Special Skills / Abilities pages. I fixed it, and the v0.3 files now in the folder show "1 / 2" there, like the other page counters. If you downloaded v0.3 earlier, grab it again.
 
 **Update 2:** on Unit Status, "Movement" no longer touches the frame. I moved the robot and the stats 7 px left, and the robot art is kept whole.
+
+## Earlier versions
+
+The older version is still in the `playtest` folder if you need it.
 
 ### v0.2
 
@@ -95,24 +66,24 @@ Minor fixes:
 
 ## How to apply (Windows)
 
-1. Download `SRW_MX_Portable_English_Patch_v0.4.zip` from the `playtest` folder.
+1. Download `SRW_MX_Portable_English_Patch_v0.3.zip` from the `playtest` folder.
 2. Unzip it into the folder that holds your Japanese ISO (or into a folder inside it). The ISO must be named exactly:
    `Super_Robot_Taisen_MX_Portable_JPN_PSP-Caravan.iso`
 3. Double-click `patch.bat`.
 4. Wait for **DONE** (about a minute). The English ISO is written next to the Japanese one:
-   `Super_Robot_Wars_MX_Portable_EN_v0.4.iso`
+   `Super_Robot_Wars_MX_Portable_EN_v0.3.iso`
 
 Your Japanese ISO is never changed. `patch.bat` checks both files for you:
 
 | File | Size | MD5 |
 |---|---|---|
 | Japanese ISO (input) | 1,295,122,432 bytes | `448d168edcd3edfe62cdcb9b31c87820` |
-| English ISO (output) | 1,357,854,720 bytes | `e68a7d578de4c57f2bb79ec445672dfc` |
+| English ISO (output) | 1,357,854,720 bytes | `3bd546e8210ce871824a867b42710e6e` |
 
 **Other systems (Linux / macOS):** install xdelta3 and run
 
 ```
-xdelta3 -d -s Super_Robot_Taisen_MX_Portable_JPN_PSP-Caravan.iso MX_EN_v0.4.xdelta Super_Robot_Wars_MX_Portable_EN_v0.4.iso
+xdelta3 -d -s Super_Robot_Taisen_MX_Portable_JPN_PSP-Caravan.iso MX_EN_v0.3.xdelta Super_Robot_Wars_MX_Portable_EN_v0.3.iso
 ```
 
 ## Optional: PS2 balance add-on
@@ -136,21 +107,21 @@ What it does **not** change (these stay as the PSP has them):
 The add-on is a second, small patch that goes on top of the English ISO. It never touches your Japanese ISO or your English ISO. It writes a third ISO, so you can keep both versions and pick either one.
 
 1. Make the English ISO first (steps above).
-2. Unzip `SRW_MX_Portable_PS2_Balance_Addon_v0.4.zip` into the folder that holds the English ISO.
+2. Unzip `SRW_MX_Portable_PS2_Balance_Addon_v0.3.zip` into the folder that holds the English ISO.
 3. Double-click `patch.bat` and wait for **DONE**. The new file is written next to it:
-   `Super_Robot_Wars_MX_Portable_EN_v0.4_PS2_balance.iso`
+   `Super_Robot_Wars_MX_Portable_EN_v0.3_PS2_balance.iso`
 
-`patch.bat` checks that the input is the exact English v0.4 ISO, and it checks the result too:
+`patch.bat` checks that the input is the exact English v0.3 ISO, and it checks the result too:
 
 | File | Size | MD5 |
 |---|---|---|
-| English ISO (input) | 1,357,854,720 bytes | `e68a7d578de4c57f2bb79ec445672dfc` |
-| PS2 balance ISO (output) | 1,357,854,720 bytes | `0f58a15559f93d2fe8b0ce0e967a5140` |
+| English ISO (input) | 1,357,854,720 bytes | `3bd546e8210ce871824a867b42710e6e` |
+| PS2 balance ISO (output) | 1,357,854,720 bytes | `2c5cc82146f064293f560d8fa234e1bb` |
 
 Other systems:
 
 ```
-xdelta3 -d -s Super_Robot_Wars_MX_Portable_EN_v0.4.iso MX_EN_v0.4_PS2_balance.xdelta Super_Robot_Wars_MX_Portable_EN_v0.4_PS2_balance.iso
+xdelta3 -d -s Super_Robot_Wars_MX_Portable_EN_v0.3.iso MX_EN_v0.3_PS2_balance.xdelta Super_Robot_Wars_MX_Portable_EN_v0.3_PS2_balance.iso
 ```
 
 ## Bug reports
