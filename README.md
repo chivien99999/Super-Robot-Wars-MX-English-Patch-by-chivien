@@ -1,16 +1,13 @@
-# Super Robot Wars MX Portable - English Patch (v0.4 playtest)
+# Super Robot Wars MX Portable - English Patch (v0.5 playtest)
 
 This is my English translation patch for **Super Robot Taisen MX Portable** (PSP, ULJS-00041).
 
-> **Early playtest.** Version 0.4 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
+> **Early playtest.** Version 0.5 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
 
-## What's new in v0.4
+## What's new in v0.5
 
-- Wider letter spacing, so the text is easier to read.
-- Fixed text overlapping and touching frames across the menus.
-- Long names now wrap instead of being cut.
-- Fixed the encyclopedia crash when scrolling some entries.
-- Fixed a lot of small alignment issues in the menus.
+- sorry I fked up with the terminology
+- Fixed names and terms across the menus, story and battle text.
 
 ## Screenshots
 
@@ -44,6 +41,7 @@ This is my English translation patch for **Super Robot Taisen MX Portable** (PSP
 
 The older versions are still in the `playtest` folder.
 
+- **v0.4:** wider letter spacing, fixed overlapping text, long names wrap, fixed the encyclopedia crash.
 - **v0.3:** fixed text that didn't fit or line up in the menus.
 - **v0.2:** fixed the opening narration and made the font closer to the original.
 
