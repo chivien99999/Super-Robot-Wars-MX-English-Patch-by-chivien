@@ -12,6 +12,34 @@ This is my English translation patch for **Super Robot Taisen MX Portable** (PSP
 - Fixed the encyclopedia crash when scrolling some entries.
 - Fixed a lot of small alignment issues in the menus.
 
+## Screenshots
+
+### Menus
+
+<table>
+<tr><td><img src="playtest/v0.4/screenshots/menu_01_intermission.png" width="420"></td><td><img src="playtest/v0.4/screenshots/menu_02_pilot_status.png" width="420"></td></tr>
+<tr><td><img src="playtest/v0.4/screenshots/menu_03_unit_status.png" width="420"></td><td><img src="playtest/v0.4/screenshots/menu_04_weapons.png" width="420"></td></tr>
+<tr><td><img src="playtest/v0.4/screenshots/menu_05_map_status.png" width="420"></td><td><img src="playtest/v0.4/screenshots/menu_06_scan.png" width="420"></td></tr>
+<tr><td><img src="playtest/v0.4/screenshots/menu_07_pre_battle.png" width="420"></td><td><img src="playtest/v0.4/screenshots/menu_08_spirits.png" width="420"></td></tr>
+<tr><td><img src="playtest/v0.4/screenshots/menu_09_encyclopedia.png" width="420"></td><td><img src="playtest/v0.4/screenshots/menu_10_enemy_list.png" width="420"></td></tr>
+</table>
+
+### Dialogue
+
+<table>
+<tr><td><img src="playtest/v0.4/screenshots/dialogue_01.png" width="420"></td><td><img src="playtest/v0.4/screenshots/dialogue_02.png" width="420"></td></tr>
+<tr><td><img src="playtest/v0.4/screenshots/dialogue_03.png" width="420"></td><td><img src="playtest/v0.4/screenshots/dialogue_04.png" width="420"></td></tr>
+<tr><td><img src="playtest/v0.4/screenshots/dialogue_05.png" width="420"></td><td><img src="playtest/v0.4/screenshots/dialogue_06.png" width="420"></td></tr>
+<tr><td><img src="playtest/v0.4/screenshots/dialogue_07.png" width="420"></td><td><img src="playtest/v0.4/screenshots/dialogue_08.png" width="420"></td></tr>
+</table>
+
+### Opening narration
+
+<table>
+<tr><td><img src="playtest/v0.4/screenshots/crawl_01.png" width="420"></td><td><img src="playtest/v0.4/screenshots/crawl_02.png" width="420"></td></tr>
+<tr><td><img src="playtest/v0.4/screenshots/crawl_03.png" width="420"></td><td><img src="playtest/v0.4/screenshots/crawl_04.png" width="420"></td></tr>
+</table>
+
 ## Earlier versions
 
 The older versions are still in the `playtest` folder.
