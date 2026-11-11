@@ -1,13 +1,19 @@
-# Super Robot Wars MX Portable - English Patch (v0.5 playtest)
+# Super Robot Wars MX Portable - English Patch (v0.6 playtest)
 
 This is my English translation patch for **Super Robot Taisen MX Portable** (PSP, ULJS-00041).
 
-> **Early playtest.** Version 0.5 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
+> **Early playtest.** Version 0.6 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
 
-## What's new in v0.5
+## What's new in v0.6
 
-- sorry I fked up with the terminology
-- Fixed names and terms across the menus, story and battle text.
+- The robot name on the map hover box sits centred in a taller strip.
+- Weapon Performance now says "Power".
+- The mission objectives strip spaces the stage number and title properly.
+- Raise Stats: the PP numbers line up with their labels.
+- Map messages (like items found in containers) are centred and no longer show a stray second line.
+- Select Support Units: the weapon, power and accuracy row no longer overlaps.
+- The support pop-up menus are wide enough for their options.
+- Fixed Domon's "Clone Shadow Art" shout.
 
 ## Screenshots
 
@@ -41,6 +47,7 @@ This is my English translation patch for **Super Robot Taisen MX Portable** (PSP
 
 The older versions are still in the `playtest` folder.
 
+- **v0.5:** fixed names and terms across the menus, story and battle text.
 - **v0.4:** wider letter spacing, fixed overlapping text, long names wrap, fixed the encyclopedia crash.
 - **v0.3:** fixed text that didn't fit or line up in the menus.
 - **v0.2:** fixed the opening narration and made the font closer to the original.
