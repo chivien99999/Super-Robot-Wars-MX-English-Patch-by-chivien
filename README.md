@@ -1,26 +1,25 @@
-# Super Robot Wars MX Portable - English Patch (v0.7 playtest)
+# Super Robot Wars MX Portable - English Patch (v0.8 playtest)
 
 This is my English translation patch for **Super Robot Taisen MX Portable** (PSP, ULJS-00041).
 
-> **Early playtest.** Version 0.7 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
+> **Early playtest.** Version 0.8 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
 
-## What's new in v0.7
+## What's new in v0.8
 
-- The Change Team Name screen now works like the name entry screen, with English letters and room for longer names.
-- Pilot Status shows the Sync Ratio cleanly.
-- Long pilot names fit on Pilot Status (in two rows) and on the map name bar.
-- Help mode (hold SELECT): the labels no longer show doubled copies, and every help text is shown in full.
+- The chapter title cards that were still in Japanese (including Chapter 29) are now in English, and the dim logo behind every title card is the English logo.
+- The logo intro before the title screen and the opening movie now show the English Super Robot Wars MX Portable logo.
 
-## Before and after (v0.6 vs v0.7)
+## Before and after (v0.7 vs v0.8)
 
-Same save and same scene in each picture: v0.6 on the left, v0.7 on the right. Help mode is opened by holding SELECT.
+Same scene in each picture: v0.7 on the left, v0.8 on the right.
 
-![Change Team Name](playtest/v0.7/compare/01_team_name.png)
-![Help mode: pre-battle](playtest/v0.7/compare/02_help_mode_pre_battle.png)
-![Help mode: Unit Status](playtest/v0.7/compare/03_help_mode_unit_status.png)
-![Help mode: Weapon Performance](playtest/v0.7/compare/04_help_mode_weapon_performance.png)
-![Help mode: Intermission](playtest/v0.7/compare/05_help_mode_intermission.png)
-![Help mode: Change Team Name](playtest/v0.7/compare/06_help_mode_team_name.png)
+![Chapter title card](playtest/v0.8/compare/01_chapter29_title_card.jpg)
+![Chapter title card: The Hammer of Wrath](playtest/v0.8/compare/02_hammer_of_wrath_title_card.jpg)
+![Title card logo](playtest/v0.8/compare/03_title_card_logo.jpg)
+![Logo intro](playtest/v0.8/compare/04_logo_intro.jpg)
+![Opening movie: letters](playtest/v0.8/compare/05_opening_letters.jpg)
+![Opening movie: logo in the fire](playtest/v0.8/compare/06_opening_fire_logo.jpg)
+![Opening movie: Portable logo](playtest/v0.8/compare/07_opening_portable_logo.jpg)
 
 ## Screenshots
 
@@ -54,6 +53,7 @@ Same save and same scene in each picture: v0.6 on the left, v0.7 on the right. H
 
 The older versions are still in the `playtest` folder.
 
+- **v0.7:** the Change Team Name screen takes English letters, Sync Ratio shows cleanly, long pilot names fit, and help mode shows every help text in full.
 - **v0.6:** fixed the map hover box, mission objectives, Raise Stats, map messages, support menus and Domon's shout.
 - **v0.5:** fixed names and terms across the menus, story and battle text.
 - **v0.4:** wider letter spacing, fixed overlapping text, long names wrap, fixed the encyclopedia crash.
