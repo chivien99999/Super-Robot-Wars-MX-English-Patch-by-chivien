@@ -1,19 +1,26 @@
-# Super Robot Wars MX Portable - English Patch (v0.6 playtest)
+# Super Robot Wars MX Portable - English Patch (v0.7 playtest)
 
 This is my English translation patch for **Super Robot Taisen MX Portable** (PSP, ULJS-00041).
 
-> **Early playtest.** Version 0.6 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
+> **Early playtest.** Version 0.7 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
 
-## What's new in v0.6
+## What's new in v0.7
 
-- The robot name on the map hover box sits centred in a taller strip.
-- Weapon Performance now says "Power".
-- The mission objectives strip spaces the stage number and title properly.
-- Raise Stats: the PP numbers line up with their labels.
-- Map messages (like items found in containers) are centred and no longer show a stray second line.
-- Select Support Units: the weapon, power and accuracy row no longer overlaps.
-- The support pop-up menus are wide enough for their options.
-- Fixed Domon's "Clone Shadow Art" shout.
+- The Change Team Name screen now works like the name entry screen, with English letters and room for longer names.
+- Pilot Status shows the Sync Ratio cleanly.
+- Long pilot names fit on Pilot Status (in two rows) and on the map name bar.
+- Help mode (hold SELECT): the labels no longer show doubled copies, and every help text is shown in full.
+
+## Before and after (v0.6 vs v0.7)
+
+Same save and same scene in each picture: v0.6 on the left, v0.7 on the right. Help mode is opened by holding SELECT.
+
+![Change Team Name](playtest/v0.7/compare/01_team_name.png)
+![Help mode: pre-battle](playtest/v0.7/compare/02_help_mode_pre_battle.png)
+![Help mode: Unit Status](playtest/v0.7/compare/03_help_mode_unit_status.png)
+![Help mode: Weapon Performance](playtest/v0.7/compare/04_help_mode_weapon_performance.png)
+![Help mode: Intermission](playtest/v0.7/compare/05_help_mode_intermission.png)
+![Help mode: Change Team Name](playtest/v0.7/compare/06_help_mode_team_name.png)
 
 ## Screenshots
 
@@ -47,6 +54,7 @@ This is my English translation patch for **Super Robot Taisen MX Portable** (PSP
 
 The older versions are still in the `playtest` folder.
 
+- **v0.6:** fixed the map hover box, mission objectives, Raise Stats, map messages, support menus and Domon's shout.
 - **v0.5:** fixed names and terms across the menus, story and battle text.
 - **v0.4:** wider letter spacing, fixed overlapping text, long names wrap, fixed the encyclopedia crash.
 - **v0.3:** fixed text that didn't fit or line up in the menus.
