@@ -1,25 +1,18 @@
-# Super Robot Wars MX Portable - English Patch (v0.8 playtest)
+# Super Robot Wars MX Portable - English Patch (v0.801 playtest)
 
 This is my English translation patch for **Super Robot Taisen MX Portable** (PSP, ULJS-00041).
 
-> **Early playtest.** Version 0.8 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
+> **Early playtest.** Version 0.801 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
 
-## What's new in v0.8
+## What's new in v0.801
 
-- The chapter title cards that were still in Japanese (including Chapter 29) are now in English, and the dim logo behind every title card is the English logo.
-- The logo intro before the title screen and the opening movie now show the English Super Robot Wars MX Portable logo.
+- Fixed the Shield Upgrade screen: Credits, Cost and Remaining Credits no longer overlap.
 
-## Before and after (v0.7 vs v0.8)
+## Before and after (v0.8 vs v0.801)
 
-Same scene in each picture: v0.7 on the left, v0.8 on the right.
+Same scene: v0.8 on the left, v0.801 on the right.
 
-![Chapter title card](playtest/v0.8/compare/01_chapter29_title_card.jpg)
-![Chapter title card: The Hammer of Wrath](playtest/v0.8/compare/02_hammer_of_wrath_title_card.jpg)
-![Title card logo](playtest/v0.8/compare/03_title_card_logo.jpg)
-![Logo intro](playtest/v0.8/compare/04_logo_intro.jpg)
-![Opening movie: letters](playtest/v0.8/compare/05_opening_letters.jpg)
-![Opening movie: logo in the fire](playtest/v0.8/compare/06_opening_fire_logo.jpg)
-![Opening movie: Portable logo](playtest/v0.8/compare/07_opening_portable_logo.jpg)
+![Shield Upgrade](playtest/v0.801/compare/01_shield_upgrade.png)
 
 ## Screenshots
 
@@ -53,6 +46,7 @@ Same scene in each picture: v0.7 on the left, v0.8 on the right.
 
 The older versions are still in the `playtest` folder.
 
+- **v0.8:** the chapter title cards, the logo intro and the opening movie logo are now in English.
 - **v0.7:** the Change Team Name screen takes English letters, Sync Ratio shows cleanly, long pilot names fit, and help mode shows every help text in full.
 - **v0.6:** fixed the map hover box, mission objectives, Raise Stats, map messages, support menus and Domon's shout.
 - **v0.5:** fixed names and terms across the menus, story and battle text.
