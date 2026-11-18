@@ -1,18 +1,29 @@
-# Super Robot Wars MX Portable - English Patch (v0.801 playtest)
+# Super Robot Wars MX Portable - English Patch (v1.0)
 
 This is my English translation patch for **Super Robot Taisen MX Portable** (PSP, ULJS-00041).
 
-> **Early playtest.** Version 0.801 is an early playtest build. There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
+> There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
 
-## What's new in v0.801
+## What's new in v1.0
 
-- Fixed the Shield Upgrade screen: Credits, Cost and Remaining Credits no longer overlap.
+- Weapon Details: Additional Effects get their own rows and no longer cover Required Skill or the Accuracy and Critical Modifiers.
+- Select Weapon and Weapon Performance: both Additional Effects show in full, and long Required Skills no longer run into the next column.
+- Fixed long scene titles being cut off in the intermission header.
+- Lines two characters say together now show in one box, with both names.
+- Fixed text touching in Learn Skills (PP Owned), Mission Objectives (Final Stage) and the Unit Status, Pilot Status and Weapon Performance tabs.
 
-## Before and after (v0.8 vs v0.801)
+## Before and after (v0.801 vs v1.0)
 
-Same scene: v0.8 on the left, v0.801 on the right.
+The old version is on the left or on top, v1.0 on the right or below. The two pictures marked (v1.0) show v1.0 only.
 
-![Shield Upgrade](playtest/v0.801/compare/01_shield_upgrade.png)
+![Weapon Details](playtest/v1.0/compare/1_weapon_details.png)
+![Weapon footer: Additional Effects](playtest/v1.0/compare/2_weapon_footer_effects.png)
+![Select Weapon (v1.0)](playtest/v1.0/compare/2_select_weapon_ingame.png)
+![Scene title](playtest/v1.0/compare/3_scene_title.png)
+![Two speakers in one box](playtest/v1.0/compare/4_two_speakers.png)
+![Learn Skills (v1.0)](playtest/v1.0/compare/5_learn_skills.png)
+![Mission Objectives](playtest/v1.0/compare/6_mission_objectives.png)
+![Unit Status, Pilot Status and Weapon Performance tabs](playtest/v1.0/compare/7_unit_tabs.png)
 
 ## Screenshots
 
@@ -46,6 +57,7 @@ Same scene: v0.8 on the left, v0.801 on the right.
 
 The older versions are still in the `playtest` folder.
 
+- **v0.801:** fixed the Shield Upgrade screen.
 - **v0.8:** the chapter title cards, the logo intro and the opening movie logo are now in English.
 - **v0.7:** the Change Team Name screen takes English letters, Sync Ratio shows cleanly, long pilot names fit, and help mode shows every help text in full.
 - **v0.6:** fixed the map hover box, mission objectives, Raise Stats, map messages, support menus and Domon's shout.
@@ -56,7 +68,7 @@ The older versions are still in the `playtest` folder.
 
 ## Warnings
 
-- **Early playtest:** nobody has played the game start to finish on this patch yet. Keep several save files.
+- Nobody has played the game start to finish on this patch yet. Keep several save files.
 - The patch only works on the original, unmodified Japanese ISO.
 - Tested on PPSSPP. It has not been tested on real PSP hardware yet. On a real PSP you need custom firmware to run any ISO.
 - Save states from other versions of the game may not carry over cleanly. Use in-game saves.
