@@ -7,6 +7,7 @@ This is my English translation patch for **Super Robot Taisen MX Portable** (PSP
 ## What's new in v1.02
 
 - Meio's elite squad in Dragonar is now spelled Practise, not Practies, in the story, battle lines and the Robot Compendium.
+- Fixed: the v1.02 patcher reported an error at the end (wrong checksum). Download again if you got it before.
 
 ## Screenshots
 
