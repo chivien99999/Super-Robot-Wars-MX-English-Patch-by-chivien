@@ -16,10 +16,9 @@ Pre-battle screen, v1.0 on the left and v1.01 on the right:
 <tr><td><img src="playtest/v1.01/compare/prebattle_v1.0.png" width="420"></td><td><img src="playtest/v1.01/compare/prebattle_v1.01.png" width="420"></td></tr>
 </table>
 
-The new name in the Robot Compendium and on the unit screens (v1.01):
+The new name in the Robot Compendium (v1.01):
 
 ![Robot Compendium](playtest/v1.01/compare/robot_compendium_v1.01.png)
-![Unit names](playtest/v1.01/compare/unit_names_v1.01.png)
 
 ## Screenshots
 
