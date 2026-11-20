@@ -1,20 +1,12 @@
-# Super Robot Wars MX Portable - English Patch (v1.01)
+# Super Robot Wars MX Portable - English Patch (v1.02)
 
 This is my English translation patch for **Super Robot Taisen MX Portable** (PSP, ULJS-00041).
 
 > There has been no full playthrough yet, so expect bugs, odd line breaks and lines that still need polish. Please report anything you find (see below).
 
-## What's new in v1.01
+## What's new in v1.02
 
-- Dragonar's flight unit is now called MAFFU (Metal Armor Fixed Flight Unit), not Muff, in unit names and the Robot Compendium.
-
-## Before and after (v1.0 vs v1.01)
-
-Pre-battle screen, v1.0 on the left and v1.01 on the right:
-
-<table>
-<tr><td><img src="playtest/v1.01/compare/prebattle_v1.0.png" width="420"></td><td><img src="playtest/v1.01/compare/prebattle_v1.01.png" width="420"></td></tr>
-</table>
+- Meio's elite squad in Dragonar is now spelled Practise, not Practies, in the story, battle lines and the Robot Compendium.
 
 ## Screenshots
 
@@ -23,9 +15,8 @@ Pre-battle screen, v1.0 on the left and v1.01 on the right:
 <table>
 <tr><td><img src="playtest/v0.4/screenshots/menu_01_intermission.png" width="420"></td><td><img src="playtest/v0.4/screenshots/menu_02_pilot_status.png" width="420"></td></tr>
 <tr><td><img src="playtest/v0.4/screenshots/menu_03_unit_status.png" width="420"></td><td><img src="playtest/v0.4/screenshots/menu_04_weapons.png" width="420"></td></tr>
-<tr><td><img src="playtest/v0.4/screenshots/menu_05_map_status.png" width="420"></td><td><img src="playtest/v0.4/screenshots/menu_06_scan.png" width="420"></td></tr>
-<tr><td><img src="playtest/v0.4/screenshots/menu_07_pre_battle.png" width="420"></td><td><img src="playtest/v0.4/screenshots/menu_08_spirits.png" width="420"></td></tr>
-<tr><td><img src="playtest/v0.4/screenshots/menu_09_encyclopedia.png" width="420"></td><td><img src="playtest/v0.4/screenshots/menu_10_enemy_list.png" width="420"></td></tr>
+<tr><td><img src="playtest/v0.4/screenshots/menu_06_scan.png" width="420"></td><td><img src="playtest/v0.4/screenshots/menu_07_pre_battle.png" width="420"></td></tr>
+<tr><td><img src="playtest/v0.4/screenshots/menu_08_spirits.png" width="420"></td><td><img src="playtest/v0.4/screenshots/menu_09_encyclopedia.png" width="420"></td></tr>
 </table>
 
 ### Dialogue
@@ -48,6 +39,7 @@ Pre-battle screen, v1.0 on the left and v1.01 on the right:
 
 The older versions are still in the `playtest` folder.
 
+- **v1.01:** Dragonar's flight unit is now called MAFFU (Metal Armor Fixed Flight Unit), not Muff.
 - **v1.0:** fixed the Weapon Details and Select Weapon effect rows, long scene titles, two-speaker lines, and text touching in Learn Skills, Mission Objectives and the unit tabs.
 - **v0.801:** fixed the Shield Upgrade screen.
 - **v0.8:** the chapter title cards, the logo intro and the opening movie logo are now in English.
